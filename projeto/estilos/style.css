@@ -1,0 +1,209 @@
+:root {
+    --azul-1: #1F1641;
+    /* Azul 1 */
+    --azul-2: #012172;
+    /* Azul 2 */
+    --azul-3: #0486D6;
+    /* Azul 3 */
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Sriracha&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: var(--azul-2);
+}
+
+#logo {
+    width: 105px;
+    height: 102px;
+    margin-left: 50px;
+}
+
+#navegacao {
+    margin-left: auto;
+    margin-right: 30px;
+}
+
+#navegacao a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: 400;
+    line-height: 18px;
+    margin-left: 30px;
+}
+
+#placeholder {
+    width: 325px;
+    height: 45px;
+    margin-right: 107px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    background: #FFF;
+}
+
+article {
+    display: flex;
+    width: 1100px;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+    margin: 100px auto;
+}
+
+#postagem-pricipal {
+    width: 658.628px;
+}
+
+#titulo-principal {
+    color: #000;
+    font-family: Fjalla One;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
+
+.imagens-article {
+    width: 552.341px;
+    height: 395px;
+    flex-shrink: 0;
+}
+
+#data-post {
+    color: #000;
+    font-family: Arial;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px;
+    text-transform: capitalize;
+}
+
+.texto {
+    color: #000;
+    text-align: justify;
+    font-family: Arial;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29px;
+    width: 552px;
+    margin-bottom: 15px;
+}
+
+.titulos-secundarios {
+    color: #000;
+    font-family: Fjalla One;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100.75px;
+    width: 282px;
+}
+
+#titulos-postagens-relacionados {
+    width: 100%;
+    margin: 35px 0;
+    color: #000;
+    text-align: justify;
+    font-family: Fjalla One;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29px;
+    text-transform: uppercase;
+
+}
+
+#postagens {
+    width: 1080px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin: 0 auto;
+}
+
+.postagem {
+    padding: 2px;
+}
+
+.postagens-imagens {
+    width: 300px;
+    height: 224.063px;
+}
+
+.legenda-foto {
+    color: #000;
+    font-family: Arial;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    width: 354px;
+}
+
+#aside-categoria {
+    width: 358px;
+    height: 69px;
+    background: var(--Azul-2, #012172);
+    color: white;
+    margin-top: 110px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#paises {
+
+    display: flex;
+    color: var(--Azul-1, #1F1641);
+    font-family: Arial;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 28px 58px 10px 73px;
+
+}
+
+#paises p {
+    margin-bottom: 25px;
+}
+
+#paises-secao1 {
+    width: 50%;
+}
+
+#paises-secao2 {
+    width: 50%
+}
+
+#aside-recursos {
+    width: 358px;
+    height: 69px;
+    background: var(--Azul-2, #012172);
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
