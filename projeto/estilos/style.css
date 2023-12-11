@@ -229,14 +229,14 @@ footer {
 #titulo-footer {
     color: #FFF;
     font-family: Fjalla One;
-    font-size: 40px;
+    font-size: 30px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    border: 1px solid red;
     display: flex;
     width: 100%;
     margin-left: 150px;
+    padding: 5px;
 }
 
 #imagem-footer img {
@@ -245,10 +245,18 @@ footer {
     display: flex;
     margin-left: 190px;
     margin-top: 15px;
-    
-}
-.opcoes-footer{
 
+}
+
+#teste {
+    display: flex;
+    width: 60%;
+    justify-content: space-evenly;
+}
+
+.opcoes-footer {
+    display: flex;
+    flex-direction: column;
 }
 
 .opcoes-footer a {
@@ -256,7 +264,6 @@ footer {
     color: rgba(255, 255, 255, 0.75);
     font-family: Arial;
     font-size: 15px;
-    border: 1px solid red;
     display: flex;
     width: 130px;
 }
@@ -266,6 +273,16 @@ footer {
     font-family: Fjalla One;
     font-size: 22px;
     display: flex;
-    border: 1px solid red;
     width: 130px;
+}
+.material-icons {
+    padding: 10px;
+    font-size: 40px;
+    width: 40px;
+    text-decoration: none;
+    margin: 5px 80px;
+}
+.facebook {
+    background: #3b5998;
+    color: white;
 }
