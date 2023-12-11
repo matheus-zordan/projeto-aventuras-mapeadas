@@ -48,7 +48,8 @@ header {
     line-height: 18px;
     margin-left: 30px;
 }
-#navegacao a:hover{
+
+#navegacao a:hover {
     text-decoration: underline;
     color: var(--azul-3);
 }
@@ -177,7 +178,6 @@ article {
 }
 
 #paises {
-
     display: flex;
     color: var(--Azul-1, #1F1641);
     font-family: Arial;
@@ -210,4 +210,62 @@ article {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#imagens-laterais img {
+    width: 358px;
+    height: 240px;
+    flex-shrink: 0;
+    margin-top: 35px;
+    display: flex;
+}
+
+footer {
+    background-color: var(--azul-3);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#titulo-footer {
+    color: #FFF;
+    font-family: Fjalla One;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: 1px solid red;
+    display: flex;
+    width: 100%;
+    margin-left: 150px;
+}
+
+#imagem-footer img {
+    width: 175px;
+    height: 170px;
+    display: flex;
+    margin-left: 190px;
+    margin-top: 15px;
+    
+}
+.opcoes-footer{
+
+}
+
+.opcoes-footer a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.75);
+    font-family: Arial;
+    font-size: 15px;
+    border: 1px solid red;
+    display: flex;
+    width: 130px;
+}
+
+.subtitulo-footer {
+    color: #FFF;
+    font-family: Fjalla One;
+    font-size: 22px;
+    display: flex;
+    border: 1px solid red;
+    width: 130px;
 }
