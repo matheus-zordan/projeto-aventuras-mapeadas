@@ -275,14 +275,3 @@ footer {
     display: flex;
     width: 130px;
 }
-.material-icons {
-    padding: 10px;
-    font-size: 40px;
-    width: 40px;
-    text-decoration: none;
-    margin: 5px 80px;
-}
-.facebook {
-    background: #3b5998;
-    color: white;
-}
