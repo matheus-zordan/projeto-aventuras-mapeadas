@@ -349,6 +349,7 @@ footer {
         align-items: center;
         justify-content: center;
         flex-direction: column;
+        width: 100%;
     }
 
     #aside-categoria {
@@ -357,6 +358,7 @@ footer {
         align-items: center;
         justify-content: center;
         flex-direction: column;
+        width: 100%;
     }
 
     #aside-recursos {
@@ -365,6 +367,7 @@ footer {
         align-items: center;
         justify-content: center;
         flex-direction: column;
+        width: 100%;
     }
 
     #imagens-laterais img {
