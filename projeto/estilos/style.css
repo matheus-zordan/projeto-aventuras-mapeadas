@@ -275,7 +275,7 @@ footer {
 }
 
 
-@media screen and (min-width: 300px) and (max-width: 1000px) {
+@media screen and (min-width: 300px) and (max-width: 578px) {
 
     header {
         padding: 10px;
@@ -344,12 +344,27 @@ footer {
         width: 100%;
         text-align: center;
     }
+    aside{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
     #aside-categoria {
         margin: 50px auto 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
     }
 
     #aside-recursos {
         margin: 50px auto 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
     }
 
     #imagens-laterais img {
