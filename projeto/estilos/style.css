@@ -165,6 +165,7 @@ article {
     line-height: 26px;
     width: 354px;
 }
+
 #aside-categoria {
     width: 358px;
     height: 69px;
@@ -344,7 +345,8 @@ footer {
         width: 100%;
         text-align: center;
     }
-    aside{
+
+    aside {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -409,6 +411,50 @@ footer {
     .opcoes-footer a {
         justify-content: center;
         padding: 2px;
-        font-size: 12px;  
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 802px) and (max-width: 1000px) {
+
+    header {
+        padding: 10px;
+        justify-content: center;
+    }
+
+    #navegacao {
+        margin-left: 0;
+    }
+
+    #placeholder {
+        width: 100%;
+        margin-right: 0px;
+        margin-top: 20px;
+    }
+
+    article {
+        width: 700px;
+    }
+
+    #postagem-pricipal {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+        border: 1px solid red;
+    }
+    .titulos-secundarios {
+       text-align: center;
+    }
+    #postagens {
+        width: 700px;
+        display: flex;
+    }
+    #titulos-postagens-relacionados {
+        color: #000;
+        text-align: center;
+    }
+    .postagem{
+        width: 700px;
     }
 }
