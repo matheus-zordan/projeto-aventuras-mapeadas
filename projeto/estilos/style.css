@@ -276,7 +276,7 @@ footer {
 }
 
 
-@media screen and (min-width: 300px) and (max-width: 800px) {
+@media screen and (min-width: 300px) and (max-width: 799px) {
 
     header {
         padding: 10px;
@@ -415,7 +415,7 @@ footer {
     }
 }
 
-@media screen and (min-width: 802px) and (max-width: 1000px) {
+@media screen and (min-width: 799px) and (max-width: 1144px) {
 
     header {
         padding: 10px;
@@ -441,7 +441,6 @@ footer {
         flex-direction: column;
         align-items: center;
         margin: 0 auto;
-        border: 1px solid red;
     }
     .titulos-secundarios {
        text-align: center;
@@ -452,8 +451,57 @@ footer {
         flex-direction: column;
         align-items: center;
     }
+    .postagens-imagens {
+        width: 100%;
+        height: auto;
+    }
     #titulos-postagens-relacionados {
         color: #000;
         text-align: center;
+    }
+    #aside-categoria {
+        width: 700px;
+        font-size: 20px;
+        margin-top: 50px;
+    }
+    #paises {
+        display: flex;
+        text-align: center;
+        font-size: 25px;
+    }
+    #aside-recursos {
+        width: 700px;
+        font-size: 20px;
+        margin-top: 50px;
+    }
+    #imagens-laterais{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    footer {
+        flex-wrap: nowrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    } 
+    #imagem-footer img {
+        margin-left: 0;
+    }
+    #titulo-footer{
+        width: 31%;
+        margin-left: 0;
+    }
+    #teste {
+        width: 80%;
+        margin-top: 20px;
+    }
+    .subtitulo-footer {
+        font-size: 25px;
+        width: 200px;
+    }
+    .opcoes-footer a {
+        font-size: 20px;
+        width: 200px;
     }
 }
