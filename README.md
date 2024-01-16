@@ -7,4 +7,6 @@ Apesar das muitas dificuldades, estou contente com o resultado final. Sinto que 
 
 Algumas observações são válidas de destacar. O design foi elaborado previamente no Figma antes de iniciar o desenvolvimento. O link estará logo abaixo junto com o projeto. Em relação à visualização, em certas telas, a visualização pode não ficar muito boa, pois o foco principal foi praticar flexbox e não dar total atenção à responsividade. A intenção inicial foi direcionada ao desktop, e fiz também uma media query para dispositivos móveis. Futuramente, pretendo tornar o projeto 100% responsivo para todos os tipos de telas.
 
+EDIT: Projeto 100% atualizado. Agora está responsivo para todos os dispositivos movéis.
+
 <a href='https://matheus-zordan.github.io/projeto-aventuras-mapeadas/'>Clique aqui para vizualizar o projeto</a>
